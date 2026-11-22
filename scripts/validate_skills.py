@@ -85,7 +85,7 @@ def main() -> int:
 
     if len(indexed) != len(set(indexed)):
         errors.append("skills-index.json contains duplicate names")
-    if index.get("name") != "Agentic Skill Garage":
+    if index.get("name") != "AI Creative Production Toolkit":
         errors.append("skills-index.json project name is incorrect")
     if index.get("skill_count") != len(indexed):
         errors.append("skills-index.json count does not match its records")
