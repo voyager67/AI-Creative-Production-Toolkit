@@ -9,7 +9,7 @@ description = "AI creative-production agent skills and local-first Python tools 
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Apache-2.0" }
-authors = [{ name = "Agentic Skill Garage contributors" }]
+authors = [{ name = "AI Creative Production Toolkit contributors" }]
 dependencies = []
 classifiers = ["Programming Language :: Python :: 3", "Programming Language :: Python :: 3.10", "License :: OSI Approved :: Apache Software License"]
 
