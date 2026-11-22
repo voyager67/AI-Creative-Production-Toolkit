@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/agentic-skill-garage-hero.svg" alt="Agentic Skill Garage" width="100%">
+<img src="assets/agentic-skill-garage-hero.svg" alt="AI Creative Production Toolkit" width="100%">
 
-# Agentic Skill Garage
+# AI Creative Production Toolkit
 
-### Creative production workflows for AI agents.
+### AI agent skills and local tools for creators.
 
-A portable library of **219 agent skills** backed by a **local-first Python toolkit** for managing references, preparing creative assets, connecting local tools, and validating deliverables across image, video, audio, 3D, and game-art workflows.
+A portable library of **219 AI agent skills** backed by a **local-first Python toolkit** for creators working across image, video, audio, 3D, game art, and creative production workflows.
 
 <p>
   <a href="https://github.com/voyager67/Agentic-Skill-Garage/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/voyager67/Agentic-Skill-Garage/ci.yml?branch=main&style=flat-square&label=CI" alt="CI status"></a>
@@ -25,7 +25,7 @@ A portable library of **219 agent skills** backed by a **local-first Python tool
 
 ## Overview
 
-Creative work often spans multiple tools: references need organizing, assets need consistent treatment, applications need coordination, and final outputs need validation. Agentic Skill Garage brings those steps together through two complementary components:
+Creative work often spans multiple tools: references need organizing, assets need consistent treatment, applications need coordination, and final outputs need validation. AI Creative Production Toolkit brings those steps together through two complementary components:
 
 - **Agent skills** — focused, reusable `SKILL.md` workflows that give compatible AI agents structured procedures, prerequisites, quality gates, and clear deliverables.
 - **Python toolkit** — the `asg` command-line interface for practical local operations such as asset intake, hashing, identity profiles, image processing, media conversion, ComfyUI requests, and Blender scene checks.
@@ -36,7 +36,7 @@ The project is designed to work alongside the tools you already use. It does not
 
 <div align="center">
 
-[![Agentic Skill Garage CLI walkthrough](assets/agentic-skill-garage-preview.gif)](assets/agentic-skill-garage-demo.mp4)
+[![AI Creative Production Toolkit CLI walkthrough](assets/agentic-skill-garage-preview.gif)](assets/agentic-skill-garage-demo.mp4)
 
 [**Watch the full CLI walkthrough (MP4)**](assets/agentic-skill-garage-demo.mp4) · [Open the project showcase](https://voyager67.github.io/Agentic-Skill-Garage/)
 
@@ -114,7 +114,7 @@ $env:DISABLE_TELEMETRY = "1"
 npx skills add voyager67/Agentic-Skill-Garage --all
 ```
 
-The installer's telemetry setting is separate from Agentic Skill Garage. This project includes no analytics or telemetry code. Refer to the [skills CLI documentation](https://www.skills.sh/docs/cli) for supported agents and installation options.
+The installer's telemetry setting is separate from AI Creative Production Toolkit. This project includes no analytics or telemetry code. Refer to the [skills CLI documentation](https://www.skills.sh/docs/cli) for supported agents and installation options.
 
 ## Using the toolkit
 
@@ -206,7 +206,7 @@ ComfyUI defaults to loopback. Remote HTTPS endpoints require the explicit `--all
 
 ## Privacy and security
 
-Agentic Skill Garage includes no telemetry, analytics, or background synchronization. It does not bundle hosted-provider API clients or require provider credentials for the core toolkit.
+AI Creative Production Toolkit includes no telemetry, analytics, or background synchronization. It does not bundle hosted-provider API clients or require provider credentials for the core toolkit.
 
 Some operations intentionally communicate with a local or explicitly configured service. For example, ComfyUI status checks, workflow submissions, and explicit image uploads send requests to the selected ComfyUI endpoint. Review the destination before allowing a remote connection.
 
@@ -258,7 +258,7 @@ Third-party applications, models, extensions, and services retain their own lice
 
 <div align="center">
 
-**Agentic Skill Garage**  
+**AI Creative Production Toolkit**  
 *Open workflows. Practical tools. Verifiable output.*
 
 </div>
