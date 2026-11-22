@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "agentic-skill-garage"
 version = "1.0.0"
-description = "Portable agent skills and local-first creative production tools"
+description = "AI creative-production agent skills and local-first Python tools for creators"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Apache-2.0" }
