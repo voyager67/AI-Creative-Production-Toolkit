@@ -17,7 +17,7 @@ class CatalogueTests(unittest.TestCase):
             if path.is_dir() and (path / "SKILL.md").is_file()
         }
         indexed = {item["name"] for item in catalogue["skills"]}
-        self.assertEqual(catalogue["name"], "Agentic Skill Garage")
+        self.assertEqual(catalogue["name"], "AI Creative Production Toolkit")
         self.assertEqual(catalogue["skill_count"], 219)
         self.assertEqual(indexed, actual)
 
