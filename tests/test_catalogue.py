@@ -36,7 +36,7 @@ class CatalogueTests(unittest.TestCase):
             cwd=ROOT, env=env, capture_output=True, text=True, check=False,
         )
         self.assertEqual(result.returncode, 0, msg=result.stdout + result.stderr)
-        self.assertIn("Agentic Skill Garage 1.0.0", result.stdout)
+        self.assertIn("AI Creative Production Toolkit 1.0.0", result.stdout)
 
 
 if __name__ == "__main__":
