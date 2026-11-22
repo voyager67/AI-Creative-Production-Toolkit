@@ -1,4 +1,4 @@
-"""Agentic Skill Garage command-line interface."""
+"""AI Creative Production Toolkit command-line interface."""
 from __future__ import annotations
 import argparse, json, os, shutil, sys
 from decimal import Decimal, InvalidOperation
@@ -15,8 +15,8 @@ def _doctor():
     return {"agentic_skill_garage":__version__,"python":sys.version.split()[0],"tools":found,"comfyui_endpoint_configured":bool(os.environ.get("ASG_COMFYUI_URL")),"comfyui_default":"http://127.0.0.1:8188 (loopback only)","note":"Missing applications are optional; no provider calls or data uploads are made by doctor."}
 
 def main(argv=None):
-    parser=argparse.ArgumentParser(prog="asg",description="Local-first creative production tools for AI agents and artists")
-    parser.add_argument("--version",action="version",version=f"Agentic Skill Garage {__version__}")
+    parser=argparse.ArgumentParser(prog="asg",description="AI creative-production skills and local-first tools for creators")
+    parser.add_argument("--version",action="version",version=f"AI Creative Production Toolkit {__version__}")
     sub=parser.add_subparsers(dest="command",required=True)
     sub.add_parser("doctor",help="Detect available local tools; no network or spend")
     a=sub.add_parser("assets",help="Local asset library operations"); a_sub=a.add_subparsers(dest="action",required=True)
